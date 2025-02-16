@@ -24,10 +24,10 @@
             int age = int.Parse(Console.ReadLine());
             string format = Console.ReadLine();
 
-            Func<Person, bool> filter  = GetFilter(type, age);
+            var filter  = GetFilter(type, age);
             persons = persons.Where(filter).ToList();
 
-            Func<Person, string> formatter = GetFormatter(format);
+            var formatter = GetFormatter(format);
 
             foreach (var person in persons)
             {
