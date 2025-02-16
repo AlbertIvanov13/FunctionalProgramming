@@ -4,16 +4,31 @@
     {
         static void Main(string[] args)
         {
-            int x = int.Parse(Console.ReadLine());
-            int y = int.Parse(Console.ReadLine());
+            int[] array = new int[] { 1, 2, 3, 4, 5, 6 };
 
-            Func<double, float, int> combineFunc = Add;
+            var result = Where(array,isEven);
 
-            Console.WriteLine(combineFunc(x, y));
+            Console.WriteLine(string.Join(", ", result));
+
         }
-        public static int Add(double x, float y)
+        public static int[] Where(int[] array, Func<int, bool> checker)
         {
-            return (int)(x + y);
+            List<int> result = new List<int>();
+
+            foreach (var item in array)
+            {
+                if (checker(item))
+                {
+                    result.Add(item);
+                }
+            }
+
+            return result.ToArray();
+        }
+
+        public static bool isEven(int number)
+        {
+            return number % 2 == 0;
         }
     }
 }
