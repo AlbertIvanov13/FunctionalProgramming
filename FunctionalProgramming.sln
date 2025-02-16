@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. FilterByAge", "05. Filt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{418BE0F6-439A-49CD-A43A-3A7062315C20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. ActionPrint", "06. ActionPrint\06. ActionPrint.csproj", "{3DD67118-47E7-4106-85C6-821CD1AA03B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{418BE0F6-439A-49CD-A43A-3A7062315C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{418BE0F6-439A-49CD-A43A-3A7062315C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{418BE0F6-439A-49CD-A43A-3A7062315C20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD67118-47E7-4106-85C6-821CD1AA03B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD67118-47E7-4106-85C6-821CD1AA03B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD67118-47E7-4106-85C6-821CD1AA03B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD67118-47E7-4106-85C6-821CD1AA03B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
