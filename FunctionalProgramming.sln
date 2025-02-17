@@ -3,25 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. SortEvenNumbers", "01. SortEvenNumbers\01. SortEvenNumbers.csproj", "{6E8FBF75-977F-41B2-BE6C-A0E2EBCBE97A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. SortEvenNumbers", "01. SortEvenNumbers\01. SortEvenNumbers.csproj", "{6E8FBF75-977F-41B2-BE6C-A0E2EBCBE97A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. SumNumbers", "02. SumNumbers\02. SumNumbers.csproj", "{9B27B1DE-F3B6-4168-832B-CE11B4E64BB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. SumNumbers", "02. SumNumbers\02. SumNumbers.csproj", "{9B27B1DE-F3B6-4168-832B-CE11B4E64BB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. CountUppercaseWords", "03. CountUppercaseWords\03. CountUppercaseWords.csproj", "{60C02190-F199-496B-B80D-D8BAD7299584}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. CountUppercaseWords", "03. CountUppercaseWords\03. CountUppercaseWords.csproj", "{60C02190-F199-496B-B80D-D8BAD7299584}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticingFunc", "PracticingFunc\PracticingFunc.csproj", "{7BFF21D2-7BAC-43EF-9141-43EFC3201B61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticingFunc", "PracticingFunc\PracticingFunc.csproj", "{7BFF21D2-7BAC-43EF-9141-43EFC3201B61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. AddVAT", "04. AddVAT\04. AddVAT.csproj", "{82B02DF5-7D6F-45FA-B59E-767DA17C03B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. AddVAT", "04. AddVAT\04. AddVAT.csproj", "{82B02DF5-7D6F-45FA-B59E-767DA17C03B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. FilterByAge", "05. FilterByAge\05. FilterByAge.csproj", "{F35A92E1-D944-49D9-90ED-EC5CE5745665}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. FilterByAge", "05. FilterByAge\05. FilterByAge.csproj", "{F35A92E1-D944-49D9-90ED-EC5CE5745665}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{418BE0F6-439A-49CD-A43A-3A7062315C20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recursion", "Recursion\Recursion.csproj", "{418BE0F6-439A-49CD-A43A-3A7062315C20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. ActionPrint", "06. ActionPrint\06. ActionPrint.csproj", "{3DD67118-47E7-4106-85C6-821CD1AA03B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. ActionPrint", "06. ActionPrint\06. ActionPrint.csproj", "{3DD67118-47E7-4106-85C6-821CD1AA03B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. KnightsOfHonor", "07. KnightsOfHonor\07. KnightsOfHonor.csproj", "{B4B19186-FF14-4BA3-A589-AD8EF79BE0B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. KnightsOfHonor", "07. KnightsOfHonor\07. KnightsOfHonor.csproj", "{B4B19186-FF14-4BA3-A589-AD8EF79BE0B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. CustomMinFunction", "08. CustomMinFunction\08. CustomMinFunction.csproj", "{88F02039-2519-49FC-BCFB-5CE141ED0E88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08. CustomMinFunction", "08. CustomMinFunction\08. CustomMinFunction.csproj", "{88F02039-2519-49FC-BCFB-5CE141ED0E88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. FindEvensOrOdds", "09. FindEvensOrOdds\09. FindEvensOrOdds.csproj", "{F2294964-9BC7-43C1-BB96-228B36F5FDF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{88F02039-2519-49FC-BCFB-5CE141ED0E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88F02039-2519-49FC-BCFB-5CE141ED0E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88F02039-2519-49FC-BCFB-5CE141ED0E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2294964-9BC7-43C1-BB96-228B36F5FDF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2294964-9BC7-43C1-BB96-228B36F5FDF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2294964-9BC7-43C1-BB96-228B36F5FDF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2294964-9BC7-43C1-BB96-228B36F5FDF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
